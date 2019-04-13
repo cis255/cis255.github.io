@@ -1,0 +1,22 @@
+1. Browser (GitHub.com): Create a new repository 
+Name it username.github.io, where username is your GitHub username (or organization name)  
+cis255.github.io
+
+2. Putty (Linux Server): Clone the repository
+gpcorser@csis:~/public_html/cis255$ git clone https://github.com/cis255/cis255.github.io.git
+
+3. Putty (Linux Server): Navigate to the clone subdirectory
+cd username.github.io
+
+4. Putty (Linux Server): Create an index.html file
+gpcorser@csis:~/public_html/cis255$ echo "Hello World" > index.html
+
+5. Putty (Linux Server): Add, commit and push the file
+gpcorser@csis:~/public_html/cis255$ git add --all
+gpcorser@csis:~/public_html/cis255$ git commit -m "Initial commit"
+gpcorser@csis:~/public_html/cis255$ git push 
+
+6. Browser: Point browser to URL
+https://cis255.github.io/
+
+...and viola!
